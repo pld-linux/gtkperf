@@ -47,6 +47,9 @@ install -d $RPM_BUILD_ROOT%{_desktopdir}
 	DESTDIR=$RPM_BUILD_ROOT
 
 install data/gtkperf.desktop $RPM_BUILD_ROOT%{_desktopdir}
+mv $RPM_BUILD_ROOT%{_pixmapsdir}/duck.png \
+	$RPM_BUILD_ROOT%{_pixmapsdir}/gtkperf.png
+	
 rm -rf $RPM_BUILD_ROOT%{_prefix}/doc
 
 %clean

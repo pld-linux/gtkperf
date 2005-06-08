@@ -16,5 +16,5 @@ diff -aurN gtkperf.orig/data/gtkperf.desktop gtkperf/data/gtkperf.desktop
 +Comment[pl]=Tester wydajności GTK+
 +Terminal=false
 +Exec=gtkperf
-+Icon=duck
++Icon=gtkperf
 +Categories=GTK;Utility;
