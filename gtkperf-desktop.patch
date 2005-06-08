@@ -1,0 +1,20 @@
+diff -aurN gtkperf.orig/data/gtkperf.desktop gtkperf/data/gtkperf.desktop
+--- gtkperf.orig/data/gtkperf.desktop	2005-06-05 19:16:39.000000000 +0200
++++ gtkperf/data/gtkperf.desktop	2005-06-08 21:43:12.326869336 +0200
+@@ -1,8 +1,10 @@
+ [Desktop Entry] 
+-Encoding=UTF-8 
+-Version=1.0 
+-Type=Application 
++Encoding=UTF-8
++Type=Application
+ Name=GtkPerf
+-Exec=/usr/bin/gtkperf
+-X-Osso-Service=com.nomovok.gtkperf
+-Icon=qgn_list_gene_default_app
++Comment=GTK+ performance tester
++Comment[pl]=Tester wydajności GTK+
++Terminal=false
++Exec=gtkperf
++Icon=duck
++Categories=GTK;Utility;
