@@ -1,13 +1,13 @@
 Summary:	GTK+ performance tester
 Summary(pl):	Tester wydajno¶ci GTK+
 Name:		gtkperf
-Version:	0.30
+Version:	0.40
 Release:	1
 Epoch:		0
 License:	GPL v.2
 Group:		Applications
 Source0:	http://dl.sourceforge.net/gtkperf/%{name}_%{version}.tar.gz
-# Source0-md5:	94dc16ed488501f22c6d6f341ab99f07
+# Source0-md5:	4331dde4bb83865e15482885fcb0cc53
 Patch0:		%{name}-desktop.patch
 URL:		http://gtkperf.sourceforge.net/
 BuildRequires:	autoconf
