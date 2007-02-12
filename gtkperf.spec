@@ -1,5 +1,5 @@
 Summary:	GTK+ performance tester
-Summary(pl):	Tester wydajno∂ci GTK+
+Summary(pl.UTF-8):   Tester wydajno≈õci GTK+
 Name:		gtkperf
 Version:	0.40
 Release:	1
@@ -21,11 +21,11 @@ GtkPerf is an application designed to test GTK+ performance. The point
 is to create common testing platform to run predefined GTK+ widgets
 and this way define the speed of device/platform.
 
-%description -l pl
-GtkPerf jest programem zaprojektowanym do testowania wydajno∂ci GTK+.
-Celem jego jest stworzenie ogÛlnej platformy testowej i uruchamiania
-na niej widgetÛw GTK+ co umoøliwia≥oby okre∂lenie prÍdko∂ci
-urz±dzenia/platformy.
+%description -l pl.UTF-8
+GtkPerf jest programem zaprojektowanym do testowania wydajno≈õci GTK+.
+Celem jego jest stworzenie og√≥lnej platformy testowej i uruchamiania
+na niej widget√≥w GTK+ co umo≈ºliwia≈Çoby okre≈õlenie prƒôdko≈õci
+urzƒÖdzenia/platformy.
 
 %prep
 %setup -q -n %{name}
