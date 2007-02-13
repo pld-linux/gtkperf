@@ -1,5 +1,5 @@
 Summary:	GTK+ performance tester
-Summary(pl.UTF-8):   Tester wydajności GTK+
+Summary(pl.UTF-8):	Tester wydajności GTK+
 Name:		gtkperf
 Version:	0.40
 Release:	1
