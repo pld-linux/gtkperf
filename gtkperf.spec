@@ -2,7 +2,7 @@ Summary:	GTK+ performance tester
 Summary(pl.UTF-8):	Tester wydajności GTK+
 Name:		gtkperf
 Version:	0.40
-Release:	1
+Release:	2
 Epoch:		0
 License:	GPL v.2
 Group:		Applications
@@ -32,6 +32,7 @@ urządzenia/platformy.
 %patch0 -p1
 
 %build
+touch config.rpath
 %{__libtoolize}
 %{__aclocal}
 %{__autoconf}
